@@ -1,0 +1,40 @@
+[versions]
+agp = "8.2.2"
+ktlint-plugin = "12.1.2"
+ktlint-compose = "0.4.16"
+# Android
+android-sdk-compile = "35"
+android-sdk-min = "24"
+androidx-compose-activity = "1.10.0"
+# Multiplatform
+kotlin = "2.1.0"
+compose-plugin = "1.7.1"
+coroutines = "1.9.0"
+napier = "2.7.1"
+koin = "4.0.1"
+
+[libraries]
+# Common
+napier = { group = "io.github.aakira", name = "napier", version.ref = "napier" }
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
+coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines" }
+coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines" }
+compose-ktlint = { group = "io.nlopez.compose.rules", name = "ktlint", version.ref = "ktlint-compose" }
+# Android
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-compose-activity" }
+# koin
+koin-core = { module = "io.insert-koin:koin-core", version.ref="koin" }
+koin-test = { module = "io.insert-koin:koin-test", version.ref="koin" }
+koin-compose = { module = "io.insert-koin:koin-compose", version.ref="koin" }
+koin-android = { module = "io.insert-koin:koin-android", version.ref="koin" }
+
+[plugins]
+# Android
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+# Common
+kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+jetbrainsCompose = { id = "org.jetbrains.compose", version.ref = "compose-plugin" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+ktlint = { id = "org.jlleitschuh.gradle.ktlint", version.ref = "ktlint-plugin" }
