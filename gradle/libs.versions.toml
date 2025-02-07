@@ -6,6 +6,9 @@ ktlint-compose = "0.4.16"
 android-sdk-compile = "35"
 android-sdk-min = "24"
 androidx-compose-activity = "1.10.0"
+androidx-appcompat = "1.7.0"
+androidx-core-ktx = "1.15.0"
+androidx-splashscreen = "1.0.1"
 # Multiplatform
 kotlin = "2.1.0"
 compose-plugin = "1.7.1"
@@ -20,8 +23,12 @@ kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotl
 coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines" }
 coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines" }
 compose-ktlint = { group = "io.nlopez.compose.rules", name = "ktlint", version.ref = "ktlint-compose" }
+compose-preview = { group = "org.jetbrains.compose.ui", name = "ui-tooling-preview", version.ref = "compose-plugin" }
 # Android
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-compose-activity" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidx-core-ktx" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidx-appcompat" }
+androidx-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "androidx-splashscreen" }
 # koin
 koin-core = { module = "io.insert-koin:koin-core", version.ref="koin" }
 koin-test = { module = "io.insert-koin:koin-test", version.ref="koin" }

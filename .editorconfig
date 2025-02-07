@@ -1,7 +1,7 @@
 root = true
 
 [*.{kt,kts}]
-ktlint_function_naming_ignore_when_annotated_with=Composable
+ktlint_function_naming_ignore_when_annotated_with=Composable,IgnoreNaming
 ktlint_code_style=intellij_idea
 compose_disallow_material2=true
 compose_modifier_missing_ignore_annotated=AllowNoModifier

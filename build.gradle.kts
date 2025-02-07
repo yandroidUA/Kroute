@@ -9,6 +9,7 @@ plugins {
     alias(libs.plugins.kotlinMultiplatform) apply false
     alias(libs.plugins.kotlin.android) apply false
     alias(libs.plugins.ktlint)
+    id("com.vanniktech.maven.publish") version "0.30.0" apply false
 }
 
 val composeKtLintVersion = "0.4.16"
@@ -20,6 +21,7 @@ ktlint {
     version.set(ktlintVersion)
     filter {
         exclude { entry -> entry.file.toString().contains("generated") }
+        exclude { entry -> entry.file.toString().contains("MainViewController") }
     }
     reporters {
         reporter(ReporterType.HTML) // Output KtLint results in HTML format
@@ -38,6 +40,7 @@ subprojects {
         version.set(ktlintVersion)
         filter {
             exclude { entry -> entry.file.toString().contains("generated") }
+            exclude { entry -> entry.file.toString().contains("MainViewController") }
         }
         reporters {
             reporter(ReporterType.HTML) // Output KtLint results in HTML format
