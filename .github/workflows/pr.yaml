@@ -28,6 +28,12 @@ jobs:
 
       - name: Run Ktlint check
         run: ./gradlew ktlintCheck
+        env:
+          POM_DEVELOPER_ID: ${{ secrets.POM_DEVELOPER_ID }}
+          POM_DEVELOPER_NAME: ${{ secrets.POM_DEVELOPER_NAME }}
 
       - name: Run All Tests
         run: ./gradlew test
+        env:
+          POM_DEVELOPER_ID: ${{ secrets.POM_DEVELOPER_ID }}
+          POM_DEVELOPER_NAME: ${{ secrets.POM_DEVELOPER_NAME }}
