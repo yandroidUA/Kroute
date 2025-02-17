@@ -23,7 +23,7 @@ You can install a Kroute library by adding following into your Gradle `builds.gr
 
 |                                                      Android                                                      |                                                     iOS                                                     | Wasm  |
 |:-----------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------:|:-----:|
-| <image src="https://github.com/yandroidUA/Kroute/blob/main/samples/assets/kroute-android-demo.gif" height="400"/> | <img src="https://github.com/yandroidUA/Kroute/blob/main/samples/assets/kroute-ios-demo.gif" height="400"/> |<img src="https://github.com/yandroidUA/Kroute/blob/main/samples/assets/kroute-wasm-browser-demo.gif" height="400"/>
+| <image src="https://github.com/yandroidUA/Kroute/blob/main/samples/assets/kroute-demo-android.gif" height="400"/> | <img src="https://github.com/yandroidUA/Kroute/blob/main/samples/assets/kroute-ios-demo.gif" height="400"/> |<img src="https://github.com/yandroidUA/Kroute/blob/main/samples/assets/kroute-wasm-browser-demo.gif" height="400"/>
 
 ## Extensions
 
