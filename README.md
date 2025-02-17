@@ -1,6 +1,17 @@
+[![Kotlin](https://img.shields.io/badge/Kotlin-2.1.0-blue.svg?style=flat&logo=kotlin)](https://kotlinlang.org)
+[![Apache 2 License](https://img.shields.io/github/license/InsertKoinIO/koin)](https://github.com/InsertKoinIO/koin/blob/main/LICENSE.txt)
+![Maven Central Version](https://img.shields.io/maven-central/v/io.github.yandroidua.kroute/navigation-ui)
+
 # Kroute
 
 Kroute is a tiny Jetpack Compose Multiplatform navigation library. Its main purpose is to navigate through composables and pass arguments (if any).
+
+**Supported platfroms**:
+- Android
+- iOS
+- Wasm Browser
+
+*If you'd like to use this library for other targets, please let me know by openning an issue*.
 
 You can install the Kroute library by adding the following to your `build.gradle.kts`:
 ```
