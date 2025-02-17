@@ -1,0 +1,33 @@
+name: PR
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Grant execute permission to Gradle
+        run: chmod +x gradlew
+
+      - name: Install Xcode dependencies
+        run: sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+
+      - name: Run Ktlint check
+        run: ./gradlew ktlintCheck
+
+      - name: Run All Tests
+        run: ./gradlew test
