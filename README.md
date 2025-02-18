@@ -1,7 +1,7 @@
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.1.0-blue.svg?style=flat&logo=kotlin)](https://kotlinlang.org)
 [![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](https://opensource.org/licenses/Apache-2.0)
 ![Maven Central Version](https://img.shields.io/maven-central/v/io.github.yandroidua.kroute/navigation-ui)
-![example workflow](https://github.com/yandroidUA/Kroute/actions/workflows/ci.yaml/badge.svg)
+![example workflow](https://github.com/yandroidUA/Kroute/actions/workflows/pr.yaml/badge.svg)
 
 # Kroute
 
