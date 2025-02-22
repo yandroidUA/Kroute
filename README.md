@@ -13,6 +13,7 @@ Kroute is a tiny Jetpack Compose Multiplatform navigation library. Its main purp
 - Android
 - iOS
 - Wasm Browser
+- JVM desktop
 
 *If you'd like to use this library for other targets, please let me know by openning an issue*.
 
@@ -68,7 +69,10 @@ If you are considering to have both *viewmodel* and *koin* Kroute extensions, th
 
 **Please refer to a [sample app](https://github.com/yandroidUA/Kroute/tree/main/samples/app) for examples**.
 
-|                                                      Android                                                      |                                                     iOS                                                     | Wasm  |
-|:-----------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------:|:-----:|
-| <image src="https://github.com/yandroidUA/Kroute/blob/main/samples/assets/kroute-demo-android.gif" height="400"/> | <img src="https://github.com/yandroidUA/Kroute/blob/main/samples/assets/kroute-ios-demo.gif" height="400"/> |<img src="https://github.com/yandroidUA/Kroute/blob/main/samples/assets/kroute-wasm-browser-demo.gif" height="400"/>
+|                                                      Android                                                      |                                                     iOS                                                     |
+|:-----------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------:|
+| <image src="https://github.com/yandroidUA/Kroute/blob/main/samples/assets/kroute-demo-android.gif" height="400"/> | <img src="https://github.com/yandroidUA/Kroute/blob/main/samples/assets/kroute-ios-demo.gif" height="400"/> |
 
+| Wasm  |                                                 JVM desktop                                                 |
+|:-----:|:-----------------------------------------------------------------------------------------------------------:|
+|<img src="https://github.com/yandroidUA/Kroute/blob/main/samples/assets/kroute-wasm-browser-demo.gif" height="400"/>| <img src="https://github.com/yandroidUA/Kroute/blob/main/samples/assets/kroute-jvm-demo.gif" height="400"/> |
