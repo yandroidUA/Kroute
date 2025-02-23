@@ -41,11 +41,17 @@ kotlin {
     wasmJs {
         browser()
     }
+    jvm {
+        compilerOptions.jvmTarget = JvmTarget.JVM_17
+    }
 
     sourceSets {
         commonMain.dependencies {
             api(libs.coroutines.core)
             api(libs.kotlin.test)
+        }
+        jvmMain.dependencies {
+            api(libs.coroutines.swing)
         }
     }
 }
