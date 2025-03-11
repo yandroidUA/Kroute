@@ -3,17 +3,15 @@
 ![Maven Central Version](https://img.shields.io/maven-central/v/io.github.yandroidua.kroute/navigation-ui)
 ![example workflow](https://github.com/yandroidUA/Kroute/actions/workflows/pr.yaml/badge.svg)
 
+![](https://img.shields.io/static/v1?label=&message=Platforms&color=grey)
+![](https://img.shields.io/static/v1?label=&message=JVM&color=blue)
+![](https://img.shields.io/static/v1?label=&message=iOS&color=blue)
+![](https://img.shields.io/static/v1?label=&message=Android&color=blue)
+![](https://img.shields.io/static/v1?label=&message=Wasm&color=blue)
+
 # Kroute
 
 Kroute is a tiny Jetpack Compose Multiplatform navigation library. Its main purpose is to navigate through composables and pass arguments (if any).
-
-----
-
-**Supported platfroms**:
-- Android
-- iOS
-- Wasm Browser
-- JVM desktop
 
 *If you'd like to use this library for other targets, please let me know by openning an issue*.
 
