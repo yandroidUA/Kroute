@@ -1,20 +1,21 @@
 [versions]
-agp = "8.2.2"
-ktlint-plugin = "12.1.2"
-ktlint-compose = "0.4.16"
+agp = "8.11.1"
+ktlint-plugin = "13.1.0"
+ktlint-compose = "0.4.27"
 # Android
-android-sdk-compile = "35"
+android-sdk-compile = "36"
 android-sdk-min = "24"
-androidx-compose-activity = "1.10.0"
-androidx-appcompat = "1.7.0"
-androidx-core-ktx = "1.15.0"
+androidx-compose-activity = "1.10.1"
+androidx-appcompat = "1.7.1"
+androidx-core-ktx = "1.17.0"
 androidx-splashscreen = "1.0.1"
 # Multiplatform
-kotlin = "2.1.0"
-compose-plugin = "1.7.1"
-coroutines = "1.9.0"
+kotlin = "2.2.10"
+compose-plugin = "1.8.2"
+coroutines = "1.10.2"
 napier = "2.7.1"
-koin = "4.0.1"
+koin = "4.1.0"
+material-icons-core = "1.7.3"
 
 [libraries]
 # Common
@@ -24,6 +25,7 @@ coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-
 coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines" }
 compose-ktlint = { group = "io.nlopez.compose.rules", name = "ktlint", version.ref = "ktlint-compose" }
 compose-preview = { group = "org.jetbrains.compose.ui", name = "ui-tooling-preview", version.ref = "compose-plugin" }
+material-icons-core = { group = "org.jetbrains.compose.material", name = "material-icons-core", version.ref = "material-icons-core" }
 # Android
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-compose-activity" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidx-core-ktx" }

@@ -11,7 +11,7 @@ plugins {
 kotlin {
     @OptIn(ExperimentalWasmDsl::class)
     wasmJs {
-        moduleName = "kroutesample"
+        outputModuleName.set("kroutesample")
         browser {
             val projectDirPath = project.projectDir.path
 

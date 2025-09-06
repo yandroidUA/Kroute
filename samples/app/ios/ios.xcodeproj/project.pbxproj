@@ -27,6 +27,7 @@
 		099552492D56E9EB000FC795 /* ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		099552592D56E9ED000FC795 /* iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		099552632D56E9ED000FC795 /* iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09D8455B2DA9E758004ECB34 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -78,6 +79,7 @@
 				0995524B2D56E9EB000FC795 /* ios */,
 				0995525C2D56E9ED000FC795 /* iosTests */,
 				099552662D56E9ED000FC795 /* iosUITests */,
+				09D8455A2DA9E758004ECB34 /* Frameworks */,
 				0995524A2D56E9EB000FC795 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +92,14 @@
 				099552632D56E9ED000FC795 /* iosUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		09D8455A2DA9E758004ECB34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09D8455B2DA9E758004ECB34 /* libresolv.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
