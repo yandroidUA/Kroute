@@ -43,6 +43,7 @@ kotlin {
             implementation(compose.material3)
             implementation(libs.napier)
             implementation(projects.lintUtils)
+            implementation(libs.material.icons.core)
             api(projects.krouteViewmodel)
             api(projects.krouteUiViewmodel)
             api(projects.krouteNavigationRouter)

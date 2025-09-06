@@ -1,4 +1,4 @@
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
@@ -8,7 +8,9 @@ plugins {
 
 kotlin {
     jvm {
-        withJava()
+        compilerOptions {
+            this.jvmTarget.set(JvmTarget.JVM_17)
+        }
     }
 
     sourceSets {
@@ -23,12 +25,6 @@ kotlin {
             implementation(compose.desktop.currentOs)
             api(libs.coroutines.swing)
         }
-    }
-}
-
-tasks.withType<KotlinCompile> {
-    kotlinOptions {
-        jvmTarget = "17"
     }
 }
 
